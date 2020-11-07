@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "PhotoTabz",
+  "version": "1.2",
+  "description": "PhotoTabz brings unparalleled imagery from around the world straight to your browser with each new tab.",
+  "chrome_url_overrides": {
+    "newtab": "html/newtab.html"
+  },
+  "icons": {
+    "16": "img/icons/icon-16.png",
+    "48": "img/icons/icon-48.png",
+    "128": "img/icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "topSites",
+    "chrome://favicon/"
+  ]
+}
