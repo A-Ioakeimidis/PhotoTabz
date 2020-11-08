@@ -1,6 +1,6 @@
 "use strict"
 
-let imageFileName = randomFileName(0, 24);
+let imageFileName = randomFileName(0, 36);
 let imageURL = "url('../img/bg/" + imageFileName + ".jpg')";
 document.getElementById("body").style.backgroundImage = imageURL;
 
